@@ -5,10 +5,12 @@
   "dependencies": {
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.17",
+    "react-scripts": "5.0.0",
     "typescript": "^4.5.4"
   },
   "scripts": {
-    "test": "react-scripts test"
+    "test": "react-scripts test --env=node --runInBand --detectOpenHandles --forceExit --testTimeout=1000",
+    "debug": "react-scripts --inspect-brk test ---env=node -runInBand --no-cache"
   },
   "eslintConfig": {
     "extends": [
