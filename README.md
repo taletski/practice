@@ -1,6 +1,6 @@
-# Abouth this Repo
+# About
 
-This is a project that I use to implement and test my solutions for the [Leetcode](https://leetcode.com)
+This repo if for implementing and testing my solutions to various problems including assignment tasks and Leetcode problems.
 
 ## Note
 
